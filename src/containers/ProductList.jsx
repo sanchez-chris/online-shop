@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ProductItem from '../components/ProductItem';
 import '../styles/ProductList.scss';
-import useGetProducts from '../hooks/useGetProduct';
+import useGetProducts from '../hooks/useGetProducts';
+import axios from 'axios';
 
 const API = 'http://api.escuelajs.co/api/v1/products';
 
@@ -15,7 +16,7 @@ const ProductList = () => {
 		<section className="main-container">
 			<div className="ProductList">
 				{products.map(product => (
-					<ProductItem product={product} key={product.id}/>
+					<ProductItem product={product} key={product.id} />
 				))}
 				
 			</div>
