@@ -30,7 +30,7 @@ const Header = () => {
 		<nav>
 			<img src={menu} alt="menu" className="menu" />
 			<div className="navbar-left">
-				<a href='/'className='logo-image-container'><img src={logo} alt="logo" className="nav-logo" /></a>
+				<a href='/online-shop' className='logo-image-container'><img src={logo} alt="logo" className="nav-logo" /></a>
 				<ul>
 					<li >
 						<a href="/all" >All</a>
