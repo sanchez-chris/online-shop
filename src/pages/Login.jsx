@@ -29,7 +29,7 @@ const Login = () => {
 						className="primary-button login-button">
 						Log in
 					</button>
-					<a href="/">Forgot my password</a>
+					<a href="/PasswordRecovery">Forgot my password</a>
 				</form>
 				<button
 					className="secondary-button signup-button"

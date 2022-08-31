@@ -35,5 +35,13 @@
 	color: var(--back);
 	text-decoration: none;
 	margin-bottom: 20px;
+	
+	
 	display: inline-block;
 }
+
+.options-box {
+	display: flex;
+	flex-direction: column;
+}
+
