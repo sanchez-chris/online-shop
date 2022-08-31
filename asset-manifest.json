@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.ca28ce2d.css",
-    "main.js": "./static/js/main.b816e111.js",
-    "static/media/homeBackground.jpg": "./static/media/homeBackground.8f9749e32c63f1a3c6b4.jpg",
-    "static/media/logo_yard_sale.svg": "./static/media/logo_yard_sale.f5c1d07e0dba172463639e02bacccd32.svg",
-    "static/media/bt_added_to_cart.svg": "./static/media/bt_added_to_cart.ac33eec52215a7cb4613b5daa37f0532.svg",
-    "static/media/bt_add_to_cart.svg": "./static/media/bt_add_to_cart.c13587f7a917cacfc4722859eba06bca.svg",
-    "static/media/icon_shopping_cart.svg": "./static/media/icon_shopping_cart.6ee019074975f25fb7927a83133327c4.svg",
-    "static/media/email.svg": "./static/media/email.bb2ee953f58b7171dfeb6401818f32e4.svg",
-    "static/media/icon_menu.svg": "./static/media/icon_menu.3aa38c5e16715afedfa9b1adb8607b7d.svg",
-    "index.html": "./index.html",
-    "main.ca28ce2d.css.map": "./static/css/main.ca28ce2d.css.map",
-    "main.b816e111.js.map": "./static/js/main.b816e111.js.map"
+    "main.css": "/online-shop/static/css/main.8c516047.css",
+    "main.js": "/online-shop/static/js/main.39a7f09b.js",
+    "static/media/homeBackground.jpg": "/online-shop/static/media/homeBackground.8f9749e32c63f1a3c6b4.jpg",
+    "static/media/logo_yard_sale.svg": "/online-shop/static/media/logo_yard_sale.f5c1d07e0dba172463639e02bacccd32.svg",
+    "static/media/bt_added_to_cart.svg": "/online-shop/static/media/bt_added_to_cart.ac33eec52215a7cb4613b5daa37f0532.svg",
+    "static/media/bt_add_to_cart.svg": "/online-shop/static/media/bt_add_to_cart.c13587f7a917cacfc4722859eba06bca.svg",
+    "static/media/icon_shopping_cart.svg": "/online-shop/static/media/icon_shopping_cart.6ee019074975f25fb7927a83133327c4.svg",
+    "static/media/email.svg": "/online-shop/static/media/email.bb2ee953f58b7171dfeb6401818f32e4.svg",
+    "static/media/icon_menu.svg": "/online-shop/static/media/icon_menu.3aa38c5e16715afedfa9b1adb8607b7d.svg",
+    "index.html": "/online-shop/index.html",
+    "main.8c516047.css.map": "/online-shop/static/css/main.8c516047.css.map",
+    "main.39a7f09b.js.map": "/online-shop/static/js/main.39a7f09b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca28ce2d.css",
-    "static/js/main.b816e111.js"
+    "static/css/main.8c516047.css",
+    "static/js/main.39a7f09b.js"
   ]
 }
