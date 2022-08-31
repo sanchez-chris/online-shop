@@ -45,7 +45,7 @@ const Header = () => {
 			<div className="navbar-right">
 				<ul>
 					<li className="navbar-email">
-						platzi@example.com
+						your_user@example.com
 					</li>
 					<li
 						className="navbar-shopping-cart"
