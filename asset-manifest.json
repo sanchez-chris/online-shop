@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.c3f8233d.css",
-    "main.js": "./static/js/main.f3febe2b.js",
+    "main.css": "./static/css/main.ca28ce2d.css",
+    "main.js": "./static/js/main.cba0a2af.js",
+    "static/media/homeBackground.jpg": "./static/media/homeBackground.8f9749e32c63f1a3c6b4.jpg",
     "static/media/logo_yard_sale.svg": "./static/media/logo_yard_sale.f5c1d07e0dba172463639e02bacccd32.svg",
     "static/media/bt_added_to_cart.svg": "./static/media/bt_added_to_cart.ac33eec52215a7cb4613b5daa37f0532.svg",
     "static/media/bt_add_to_cart.svg": "./static/media/bt_add_to_cart.c13587f7a917cacfc4722859eba06bca.svg",
@@ -9,11 +10,11 @@
     "static/media/email.svg": "./static/media/email.bb2ee953f58b7171dfeb6401818f32e4.svg",
     "static/media/icon_menu.svg": "./static/media/icon_menu.3aa38c5e16715afedfa9b1adb8607b7d.svg",
     "index.html": "./index.html",
-    "main.c3f8233d.css.map": "./static/css/main.c3f8233d.css.map",
-    "main.f3febe2b.js.map": "./static/js/main.f3febe2b.js.map"
+    "main.ca28ce2d.css.map": "./static/css/main.ca28ce2d.css.map",
+    "main.cba0a2af.js.map": "./static/js/main.cba0a2af.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3f8233d.css",
-    "static/js/main.f3febe2b.js"
+    "static/css/main.ca28ce2d.css",
+    "static/js/main.cba0a2af.js"
   ]
 }
