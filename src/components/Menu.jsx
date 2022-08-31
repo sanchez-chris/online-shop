@@ -10,7 +10,7 @@ const Menu = () => {
 					<a href="/account">My account</a>
 				</li>
 				<li className="options-box">
-					<a href="/Login" className="options-menu">Login</a>
+					<a href="/login" className="options-menu">Login</a>
 					<a href="/create-account" className="options-menu">Create account</a>
 
 				
