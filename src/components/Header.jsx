@@ -33,22 +33,22 @@ const Header = () => {
 				<img src={logo} alt="logo" className="nav-logo" />
 				<ul>
 					<li >
-						<a href="/online-shop" >All</a>
+						<a href="/" >All</a>
 					</li>
 					<li>
-						<a href="/online-shop">Clothes</a>
+						<a href="/">Clothes</a>
 					</li>
 					<li>
-						<a href="/online-shop">Electronics</a>
+						<a href="/">Electronics</a>
 					</li>
 					<li>
-						<a href="/online-shop">Furnitures</a>
+						<a href="/">Furnitures</a>
 					</li>
 					<li>
-						<a href="/online-shop">Toys</a>
+						<a href="/">Toys</a>
 					</li>
 					<li>
-						<a href="/online-shop">Others</a>
+						<a href="/">Others</a>
 					</li>
 				</ul>
 			</div>

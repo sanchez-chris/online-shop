@@ -18,6 +18,7 @@ const Login = () => {
 	return (
 		<div className="Login">
 			<div className="Login-container">
+			<h1 className="title">Login</h1>
 				<img src={logo} alt="logo" className="logo" />
 				<form action="/" className="form" ref={form}>
 					<label htmlFor="email" className="label">Email address</label>
@@ -31,11 +32,8 @@ const Login = () => {
 					</button>
 					<a href="/PasswordRecovery">Forgot my password</a>
 				</form>
-				<button
-					className="secondary-button signup-button"
-				>
-					Sign up
-				</button>
+				<div className='create-account-button'><a href="/create-account" className="secondary-button signup-button" >Create account</a>
+</div>
 			</div>
 		</div >
 	);
