@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import OrderItem from '../components/OrderItem';
 import AppContext from '../context/AppContext';
 import '../styles/MyOrder.scss';
-import arrow from '../assets/icons/flechita.svg';
 
 const MyOrder = () => {
 	const { state } = useContext(AppContext);
