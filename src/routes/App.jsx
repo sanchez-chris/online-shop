@@ -41,12 +41,12 @@ const App = () => {
 					<Route path="/online-shop/Others" element={<Others />} />
 
 					<Route path="/" element={<Home />} />
-					<Route path="/login" element={<Login />} />
+					<Route path="/online-shop/login" element={<Login />} />
 					<Route path="/password-recovery" element={<PasswordRecovery />} />
 					<Route path="/send-email" element={<SendEmail />} />
 					<Route path="/new-password" element={<NewPassword />} />
-					<Route path="/account" element={<MyAccount />} />
-					<Route path="/create-account" element={<CreateAccount/>} />
+					<Route path="/online-shop/account" element={<MyAccount />} />
+					<Route path="/online-shop/create-account" element={<CreateAccount/>} />
 					<Route path="/checkout" element={<Checkout />} />
 					<Route path="/orders" element={<Orders />} />
 					<Route path="*" element={NotFound} />
