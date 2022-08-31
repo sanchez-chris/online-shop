@@ -1,11 +1,11 @@
 import React from 'react';
+import ProductList from '../containers/ProductList';
 
 const Home = () => {
 	return (
-		<div className="Login">
-			<h1 className="title">hi</h1>
-				
-		</div >
+		<>
+			<ProductList />
+		</>
 	);
 }
 

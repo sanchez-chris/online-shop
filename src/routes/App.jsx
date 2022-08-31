@@ -1,6 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from '../containers/Layout';
+import All from '../pages/All';
+import Clothes from '../pages/All';
+
+import Electronics from '../pages/All';
+import Furnitures from '../pages/All';
+import Toys from '../pages/Toys';
+import Others from '../pages/Others';
+
+
 import Home from '../pages/Home';
 import Login from '../pages/Login';
 import PasswordRecovery from '../pages/PasswordRecovery';
@@ -22,6 +31,13 @@ const App = () => {
 			<BrowserRouter>
 				<Layout>
 					<Routes>
+					<Route path="/all" element={<All />} />
+					<Route path="/clothes" element={<Clothes />} />
+					<Route path="/electronics" element={<Electronics />} />
+					<Route path="/furnitures" element={<Furnitures />} />
+					<Route path="/toys" element={<Toys />} />
+					<Route path="/Others" element={<Others />} />
+
 					<Route path="/" element={<Home />} />
 					<Route path="/login" element={<Login />} />
 					<Route path="/password-recovery" element={<PasswordRecovery />} />
