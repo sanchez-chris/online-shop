@@ -18,7 +18,10 @@
 	overflow-y: scroll;
 	max-height: 400px;
 	scroll-behavior: smooth;
+	padding-right: 1em;
   }
+
+
 .title-container {
 	display: flex;
 }
@@ -38,7 +41,8 @@
 	background-color: var(--text-input-field);
 	margin-bottom: 24px;
 	border-radius: 8px;
-	padding: 0 24px;
+	margin-top: 2em;
+	padding: 0 24px; //top right bottom left
 }
 .amount-order p:nth-child(1) {
 	display: flex;
