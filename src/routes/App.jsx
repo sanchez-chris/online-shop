@@ -11,19 +11,17 @@ import CreateAccount from '../pages/CreateAccount';
 import Checkout from '../pages/Checkout';
 import Orders from '../pages/Orders';
 import NotFound from '../pages/NotFound';
-import '../styles/global.css';
 import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/useInitialState';
+import '../styles/global.css';
 
 const App = () => {
-
 	const initialState = useInitialState();
-
 	return (
 		<AppContext.Provider value={initialState}>
-		<BrowserRouter>
-			<Layout>
-				<Routes>
+			<BrowserRouter>
+				<Layout>
+					<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/login" element={<Login />} />
 					<Route path="/password-recovery" element={<PasswordRecovery />} />
@@ -35,8 +33,8 @@ const App = () => {
 					<Route path="/orders" element={<Orders />} />
 					<Route path="*" element={NotFound} />
 				</Routes>
-			</Layout>
-		</BrowserRouter>
+				</Layout>
+			</BrowserRouter>
 		</AppContext.Provider>
 	);
 }
