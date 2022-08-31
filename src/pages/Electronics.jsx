@@ -1,19 +1,19 @@
 import React from 'react';
-import ProductList from '../containers/ProductList';
+import ProductListElectronics from '../containers/ProductListElectronics';
 
 
 
-const All = () => {
+const Electronics = () => {
 	
     
     return (
 		
         <>
-        <ProductList />
+        <ProductListElectronics />
         </>
 
 		
 	);
 }
 
-export default All;
+export default Electronics;

@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductList from '../containers/ProductList';
+import ProductListFurnitures from '../containers/ProductListFurnitures';
 
 
 
@@ -9,7 +9,7 @@ const All = () => {
     return (
 		
         <>
-        <ProductList />
+        <ProductListFurnitures />
         </>
 
 		

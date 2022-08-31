@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductList from '../containers/ProductList';
+import ProductListShoes from '../containers/ProductListShoes';
 
 
 
@@ -9,7 +9,7 @@ const All = () => {
     return (
 		
         <>
-        <ProductList />
+        <ProductListShoes />
         </>
 
 		

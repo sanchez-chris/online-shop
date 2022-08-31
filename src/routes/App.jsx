@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from '../containers/Layout';
 import All from '../pages/All';
-import Clothes from '../pages/All';
+import Clothes from '../pages/Clothes';
 
-import Electronics from '../pages/All';
-import Furnitures from '../pages/All';
-import Toys from '../pages/Toys';
+import Electronics from '../pages/Electronics';
+import Furnitures from '../pages/Furnitures';
+import Shoes from '../pages/Shoes';
 import Others from '../pages/Others';
 
 
@@ -35,7 +35,7 @@ const App = () => {
 					<Route path="/clothes" element={<Clothes />} />
 					<Route path="/electronics" element={<Electronics />} />
 					<Route path="/furnitures" element={<Furnitures />} />
-					<Route path="/toys" element={<Toys />} />
+					<Route path="/shoes" element={<Shoes />} />
 					<Route path="/Others" element={<Others />} />
 
 					<Route path="/" element={<Home />} />

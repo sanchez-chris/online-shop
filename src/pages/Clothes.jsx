@@ -1,12 +1,12 @@
 import React from 'react';
-import ProductList from '../containers/ProductList';
+import ProductListClothes from '../containers/ProductListClothes';
 
-const Home = () => {
+const Clothes = () => {
 	return (
 		<>
-			<ProductList />
+			<ProductListClothes />
 		</>
 	);
 }
 
-export default Home;
+export default Clothes;
