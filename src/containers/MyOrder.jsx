@@ -27,16 +27,17 @@ const MyOrder = () => {
 						key={index} 
 					/>
 				))}
-				<div className="order">
+				</div>
+				<div className="amount-order">
 					<p>
 						<span>Total</span>
 					</p>
 					<p>{sumTotal()}€</p>
 				</div>
-				<button className="primary-button">
+				<button className="checkout-button">
 					Checkout
 				</button>
-			</div>
+			
 		</aside>
 	);
 }

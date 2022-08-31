@@ -13,6 +13,12 @@
 	border: 1px solid var(--very-light-pink);
 	
 }
+
+.my-order-content{
+	overflow-y: scroll;
+	max-height: 400px;
+	scroll-behavior: smooth;
+  }
 .title-container {
 	display: flex;
 }
@@ -24,7 +30,7 @@
 	font-size: var(--lg);
 	font-weight: bold;
 }
-.order {
+.amount-order {
 	display: grid;
 	grid-template-columns: auto 1fr;
 	gap: 16px;
@@ -34,20 +40,20 @@
 	border-radius: 8px;
 	padding: 0 24px;
 }
-.order p:nth-child(1) {
+.amount-order p:nth-child(1) {
 	display: flex;
 	flex-direction: column;
 }
-.order p span:nth-child(1) {
+.amount-order p span:nth-child(1) {
 	font-size: var(--md);
 	font-weight: bold;
 }
-.order p:nth-child(2) {
+.amount-order p:nth-child(2) {
 	text-align: end;
 	font-weight: bold;
 }
 
-.primary-button {
+.checkout-button {
 	background-color: var(--hospital-green);
 	border-radius: 8px;
 	border: none;
