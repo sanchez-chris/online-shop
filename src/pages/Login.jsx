@@ -9,7 +9,7 @@ const Login = () => {
 		event.preventDefault();
 		const formData = new FormData(form.current);
 		const data = {
-			usename: formData.get('email'),
+			username: formData.get('email'),
 			password: formData.get('password')
 		}
 		console.log(data);
