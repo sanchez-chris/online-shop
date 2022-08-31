@@ -5,9 +5,7 @@ const Menu = () => {
 	return (
 		<div className="Menu">
 			<ul>
-				<li>
-					<a href="/orders">My orders</a>
-				</li>
+				
 				<li>
 					<a href="/account">My account</a>
 				</li>
