@@ -45,43 +45,48 @@ const Header = () => {
 					<img src={menu} alt="menu" className="menu" />
 				</li>
 			</div>
-			
-			<div className="navbar-left">
-				<a href='/online-shop' className='logo-image-container'><img src={logo} alt="logo" className="nav-logo" /></a>
-				<ul>
-					<li >
-						<a href="/online-shop/all" >All</a>
-					</li>
-					<li>
-						<a href="/online-shop/clothes">Clothes</a>
-					</li>
-					<li>
-						<a href="/online-shop/electronics">Electronics</a>
-					</li>
-					<li>
-						<a href="/online-shop/furnitures">Furnitures</a>
-					</li>
-					<li>
-						<a href="/online-shop/shoes">Shoes</a>
-					</li>
-					<li>
-						<a href="/online-shop/others">Others</a>
-					</li>
-				</ul>
+			<div className='logo-image-container-element'>
+			<a href='/online-shop'><img src={logo} alt="logo" className="nav-logo" /></a>
+
 			</div>
-			<div className="navbar-right">
-				<ul>
-					<li className="navbar-email"  onClick={() => handleToggleMenuUser()}>
-						user@example.com
-					</li>
-					<li
-						className="navbar-shopping-cart"
-						onClick={() => handleToggleOrders()}
-					>
-						<img src={shoppingCart} alt="shopping cart" />
-						{state.cart.length > 0 ? <div>{state.cart.length}</div> : null}
-					</li>
-				</ul>
+			<div className="navbar-computer">
+				<div className="navbar-left">
+					<a href='/online-shop' className='logo-image-container'><img src={logo} alt="logo" className="nav-logo" /></a>
+					<ul>
+						<li >
+							<a href="/online-shop/all" >All</a>
+						</li>
+						<li>
+							<a href="/online-shop/clothes">Clothes</a>
+						</li>
+						<li>
+							<a href="/online-shop/electronics">Electronics</a>
+						</li>
+						<li>
+							<a href="/online-shop/furnitures">Furnitures</a>
+						</li>
+						<li>
+							<a href="/online-shop/shoes">Shoes</a>
+						</li>
+						<li>
+							<a href="/online-shop/others">Others</a>
+						</li>
+					</ul>
+				</div>
+				<div className="navbar-right">
+					<ul>
+						<li className="navbar-email"  onClick={() => handleToggleMenuUser()}>
+							user@example.com
+						</li>
+						<li
+							className="navbar-shopping-cart"
+							onClick={() => handleToggleOrders()}
+						>
+							<img src={shoppingCart} alt="shopping cart" />
+							{state.cart.length > 0 ? <div>{state.cart.length}</div> : null}
+						</li>
+					</ul>
+				</div>
 			</div>
 			{toggleMenuUser && <Menu />}
 			{toggleOrders && <MyOrder />}
