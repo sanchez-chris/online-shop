@@ -16,14 +16,14 @@ const Header = () => {
 
 
 	const handleToggleMenuUser = () => {
-		if(toggleOrders == true){
+		if(toggleOrders === true){
 			setToggleOrders(false);
 		}
 		setToggleMenuUser(!toggleMenuUser);
 	}
 
 	const handleToggleOrders = () => {
-		if(toggleMenuUser == true){
+		if(toggleMenuUser === true){
 			setToggleMenuUser(false);
 		}
 		setToggleOrders(!toggleOrders);
