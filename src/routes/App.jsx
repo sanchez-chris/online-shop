@@ -31,22 +31,22 @@ const App = () => {
 			<BrowserRouter>
 				<Layout>
 					<Routes>
-					<Route path="/online-shop" element={<Home />} />
+					<Route path="/online-shop" exact element={<Home />} />
 
-					<Route path="/online-shop/all" element={<All />} />
-					<Route path="/online-shop/clothes" element={<Clothes />} />
-					<Route path="/online-shop/electronics" element={<Electronics />} />
-					<Route path="/online-shop/furnitures" element={<Furnitures />} />
-					<Route path="/online-shop/shoes" element={<Shoes />} />
-					<Route path="/online-shop/Others" element={<Others />} />
+					<Route path="/all" element={<All />} />
+					<Route path="/clothes" element={<Clothes />} />
+					<Route path="/electronics" element={<Electronics />} />
+					<Route path="/furnitures" element={<Furnitures />} />
+					<Route path="/shoes" element={<Shoes />} />
+					<Route path="/Others" element={<Others />} />
 
 					<Route path="/" element={<Home />} />
-					<Route path="/online-shop/login" element={<Login />} />
+					<Route path="/login" element={<Login />} />
 					<Route path="/password-recovery" element={<PasswordRecovery />} />
 					<Route path="/send-email" element={<SendEmail />} />
 					<Route path="/new-password" element={<NewPassword />} />
-					<Route path="/online-shop/account" element={<MyAccount />} />
-					<Route path="/online-shop/create-account" element={<CreateAccount/>} />
+					<Route path="/account" element={<MyAccount />} />
+					<Route path="/create-account" element={<CreateAccount/>} />
 					<Route path="/checkout" element={<Checkout />} />
 					<Route path="/orders" element={<Orders />} />
 					<Route path="*" element={NotFound} />
