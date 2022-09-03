@@ -72,10 +72,10 @@ const Header = () => {
 				<div className="navbar-left">
 					<a href='/online-shop' className='logo-image-container'><img src={logo} alt="logo" className="nav-logo" /></a>
 					<ul>
-						<li onClick={() => handleToggleMenuMobile()}>
+						<li>
 							<a href="/online-shop/#/all">All</a>
 						</li>
-						<li onClick={() => handleToggleMenuMobile()}>
+						<li>
 							<a href="/online-shop/#/clothes">Clothes</a>
 						</li>
 						<li>
