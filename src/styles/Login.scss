@@ -89,11 +89,33 @@
 	color: var(--white);
 	text-decoration: none;
 }
+
+
+.create-account-text{
+	color: var(--hospital-green);
+	text-decoration: none;
+	align-items: center;
+}
 .create-account-button{
 	display: flex;
 	justify-content: center;
+	background-color: var(--white);
+	border-radius: 8px;
+	border: 3px solid var(--hospital-green);
+	color: var(--hospital-green);
+	width: 100%;
+	cursor: pointer;
+	font-size: var(--md);
+	font-weight: bold;
+	height: 50px;
+	margin-top: 14px;
+	margin-bottom: 30px;
+	align-items: center;
+
 }
-.signup-button{
+
+
+.signup-button {
 	text-decoration: none;
 	display: flex;
 	text-align: center;

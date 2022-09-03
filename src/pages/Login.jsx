@@ -28,15 +28,22 @@ const Login = () => {
 					
 					
 				</form>
-				<button
-						onClick={() => handleSubmit()}
-						className="primary-button login-button">
-						<a href="#/checkout" className="log-in-text">Log in</a>
-				</button>
+				
+						<a href="#/checkout" className="log-in-text">
+							<button
+								onClick={() => handleSubmit()}
+								className="primary-button login-button">
+								Log in
+							</button>
+						</a>
+			
 				<a className='forgot-my-password' href="#/new-password">Forgot my password</a>
-				<div className='create-account-button'>
-					<a href="#/create-account" className="secondary-button signup-button" >Create account</a>
-				</div>
+				
+					<a href="#/create-account" className="create-account-text" >
+						<button className='create-account-button'>
+							Create account
+						</button>
+					</a>
 			</div>
 		</div >
 	);

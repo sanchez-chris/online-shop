@@ -21,9 +21,11 @@ const MyAccount = () => {
 						<p className="value">*********</p>
 					</div>
 				</form>
-				<button className="edit-button">
-						<a className="edit-text" href="#/checkout">Edit</a>
-				</button>
+						<a className="edit-text" href="#/checkout">
+							<button className="edit-button">
+							Edit
+							</button>
+						</a>
 			</div>
 		</div>
 	);

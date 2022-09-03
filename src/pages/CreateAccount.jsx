@@ -20,9 +20,12 @@ const CreateAccount = () => {
 					</div>
 					
 				</form>
-				<button className="create-button">
-						<a className="create-text" href="#/checkout">Create</a>
-				</button>
+				<a className="create-text" href="#/checkout">
+					<button className="create-button">
+					Create
+					</button>
+				</a>
+				
 			</div>
 		</div>
 	);
