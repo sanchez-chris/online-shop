@@ -29,7 +29,7 @@ const Login = () => {
 					
 				</form>
 				<button
-						onClick={handleSubmit}
+						onClick={() => handleSubmit()}
 						className="primary-button login-button">
 						<a href="#/checkout" className="log-in-text">Log in</a>
 				</button>

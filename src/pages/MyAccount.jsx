@@ -20,8 +20,10 @@ const MyAccount = () => {
 						<label for="password" className="label">Password</label>
 						<p className="value">*********</p>
 					</div>
-					<input type="submit" value="Edit" className="secondary-button login-button" />
 				</form>
+				<button className="edit-button">
+						<a className="edit-text" href="#/checkout">Edit</a>
+				</button>
 			</div>
 		</div>
 	);

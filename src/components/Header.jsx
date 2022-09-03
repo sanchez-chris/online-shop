@@ -19,6 +19,10 @@ const Header = () => {
 		if(toggleOrders === true){
 			setToggleOrders(false);
 		}
+		if(toggleMenuMobile === true){
+			setToggleMenuMobile(false);
+		}
+
 		setToggleMenuUser(!toggleMenuUser);
 	}
 
@@ -26,11 +30,25 @@ const Header = () => {
 		if(toggleMenuUser === true){
 			setToggleMenuUser(false);
 		}
+		if(toggleMenuMobile === true){
+			setToggleMenuMobile(false);
+		}
 		setToggleOrders(!toggleOrders);
 	}
 
 	const handleToggleMenuMobile = () => {
+		if(toggleOrders === true){
+			setToggleOrders(false);
+		}
+		if(toggleMenuUser === true){
+			setToggleMenuUser(false);
+		}
+
 		setToggleMenuMobile(!toggleMenuMobile);
+
+		
+
+
 	}
 
 

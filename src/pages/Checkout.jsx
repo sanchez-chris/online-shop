@@ -6,10 +6,8 @@ const Checkout = () => {
 	return (
 		<div className="Checkout">
 			<div className="Checkout-container">
-				<h1 className="title">My order</h1>
-				<div className="Checkout-content">
-					<h2>Thanks</h2>
-				</div>
+				<h1 className="title">Thanks for using the app!</h1>
+				
 			</div>
 		</div>
 	);
