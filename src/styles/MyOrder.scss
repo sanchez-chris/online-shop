@@ -67,7 +67,14 @@
 	font-size: var(--md);
 	font-weight: bold;
 	height: 50px;
+
 }
+
+.checkout-text{
+	color: var(--white);
+	text-decoration: none;
+}
+
 @media (max-width: 640px) {
 	.MyOrder {
 		width: 100%;
