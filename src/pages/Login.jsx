@@ -30,9 +30,9 @@ const Login = () => {
 						className="primary-button login-button">
 						Log in
 					</button>
-					<a href="online-shop/#/new-password">Forgot my password</a>
+					<a href="#/new-password">Forgot my password</a>
 				</form>
-				<div className='create-account-button'><a href="online-shop/#/create-account" className="secondary-button signup-button" >Create account</a>
+				<div className='create-account-button'><a href="#/create-account" className="secondary-button signup-button" >Create account</a>
 </div>
 			</div>
 		</div >
