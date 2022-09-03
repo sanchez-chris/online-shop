@@ -33,7 +33,7 @@ const MyOrder = () => {
 					<p>{sumTotal()}€</p>
 				</div>
 				<button className="checkout-button">
-					<a className='checkout-text' href="online-shop/#/checkout">Checkout</a>
+					<a className='checkout-text' href="#/checkout">Checkout</a>
 				</button>
 			
 		</aside>
