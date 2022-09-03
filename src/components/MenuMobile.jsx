@@ -9,39 +9,39 @@ const MenuMobile = () => {
           <a href="/">CATEGORIES</a>
         </li>
         <li>
-          <a href="/all">All</a>
+          <a href="/online-shop/#/all">All</a>
         </li>
         <li>
-          <a href="/clothes">Clothes</a>
+          <a href="/online-shop/#/clothes">Clothes</a>
         </li>
         <li>
-          <a href="/electronics">Electronics</a>
+          <a href="/online-shop/#/electronics">Electronics</a>
         </li>
         <li>
-          <a href="/furnitures">Furnitures</a>
+          <a href="/online-shop/#/furnitures">Furnitures</a>
         </li>
         <li>
-          <a href="/shoes">Shoes</a>
+          <a href="/online-shop/#/shoes">Shoes</a>
         </li>
         <li>
-          <a href="/others">Other</a>
-        </li>
-      </ul>
-
-      <ul>
-        <li>
-          <a href="/account">My account</a>
+          <a href="/online-shop/#/others">Other</a>
         </li>
       </ul>
 
       <ul>
         <li>
-          <a href="/login" class="login">
+          <a href="/online-shop/#/account">My account</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="/online-shop/#/login" class="login">
             Login
           </a>
         </li>
         <li>
-          <a href="/create-account" class="create-account">
+          <a href="/online-shop/#/create-account" class="create-account">
             Create Account
           </a>
         </li>
