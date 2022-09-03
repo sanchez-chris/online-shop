@@ -1,5 +1,10 @@
 import React from 'react';
 import '../styles/MyAccount.scss';
+import Emoji from '../components/Emoji';
+/*
+How works here Emoji Component: Just copy and paste it as a symbol.
+*/
+
 
 const MyAccount = () => {
 	return (
@@ -9,9 +14,9 @@ const MyAccount = () => {
 				<form action="/" className="form">
 					<div>
 						<label for="name" className="label">Name</label>
-						<p className="value">Camila Yokoo</p>
+						<p className="value">Chris Sánchez</p>
 						<label for="email" className="label">Email</label>
-						<p className="value">camilayokoo@gmail.com</p>
+						<p className="value">made with <Emoji symbol="❤️"/></p>
 						<label for="password" className="label">Password</label>
 						<p className="value">*********</p>
 					</div>
