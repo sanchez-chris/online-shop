@@ -1,7 +1,8 @@
 import React, { useState, useContext } from 'react';
 import '../styles/Header.scss';
+import OrderItem from '../components/OrderItem';
+import '../styles/MyOrder.scss';
 import Menu from '../components/Menu';
-import MyOrder from '../containers/MyOrder';
 import menu from '../assets/icons/icon_menu.svg';
 import logo from '../assets/logos/logo_yard_sale.svg';
 import AppContext from '../context/AppContext';
@@ -101,6 +102,47 @@ const Header = () => {
 		);
 	  };
 	  
+
+	  const MyOrder = () => {
+		const { state } = useContext(AppContext);
+	
+		const sumTotal = () => {
+			const reducer = (accumalator, currentValue) => accumalator + currentValue.price;
+			const sum = state.cart.reduce(reducer, 0);
+			return sum;
+		}
+	
+		return (
+			<aside className="MyOrder">
+				<div className="title-container">
+					<p className="title">My order</p>
+				</div>
+				<div className="my-order-content">
+					{state.cart.map((product, index) => (
+						<OrderItem
+							indexValue = {index}
+							product={product} 
+							key={index} 
+						/>
+					))}
+					</div>
+					<div className="amount-order">
+						<p>
+							<span>Total</span>
+						</p>
+						<p>{sumTotal()}€</p>
+					</div>
+					
+					<a className='checkout-text' href="#/checkout">	
+						<button onClick={() => handleToggleOrders()} className="checkout-button">
+						Checkout
+						</button>
+					</a>
+				
+			</aside>
+		);
+	}
+	
 
 
 	/*

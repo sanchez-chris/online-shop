@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import OrderItem from '../components/OrderItem';
 import AppContext from '../context/AppContext';
 import '../styles/MyOrder.scss';
+import handleToggleOrders from '../components/Header';
 
 const MyOrder = () => {
 	const { state } = useContext(AppContext);
@@ -34,7 +35,7 @@ const MyOrder = () => {
 				</div>
 				
 				<a className='checkout-text' href="#/checkout">	
-					<button className="checkout-button">
+					<button onClick={() => handleToggleOrders()} className="checkout-button">
 					Checkout
 					</button>
 				</a>
