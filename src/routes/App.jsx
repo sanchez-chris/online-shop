@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Layout from '../containers/Layout';
 import All from '../pages/All';
 import Clothes from '../pages/Clothes';
@@ -28,31 +28,31 @@ const App = () => {
 	const initialState = useInitialState();
 	return (
 		<AppContext.Provider value={initialState}>
-			<BrowserRouter>
+			<Router >
 				<Layout>
 					<Routes>
-					<Route path="/online-shop" exact element={<Home />} />
+						<Route path="/online-shop" exact element={<Home />} />
 
-					<Route path="/all" element={<All />} />
-					<Route path="/clothes" element={<Clothes />} />
-					<Route path="/electronics" element={<Electronics />} />
-					<Route path="/furnitures" element={<Furnitures />} />
-					<Route path="/shoes" element={<Shoes />} />
-					<Route path="/others" element={<Others />} />
+						<Route path='/all' element={<All />} />
+						<Route path="/clothes" element={<Clothes />} />
+						<Route path="/electronics" element={<Electronics />} />
+						<Route path="/furnitures" element={<Furnitures />} />
+						<Route path="/shoes" element={<Shoes />} />
+						<Route path="/others" element={<Others />} />
 
-					<Route path="/" element={<Home />} />
-					<Route path="/login" element={<Login />} />
-					<Route path="/password-recovery" element={<PasswordRecovery />} />
-					<Route path="/send-email" element={<SendEmail />} />
-					<Route path="/new-password" element={<NewPassword />} />
-					<Route path="/account" element={<MyAccount />} />
-					<Route path="/create-account" element={<CreateAccount/>} />
-					<Route path="/checkout" element={<Checkout />} />
-					<Route path="/orders" element={<Orders />} />
-					<Route path="*" element={NotFound} />
-				</Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/login" element={<Login />} />
+						<Route path="/password-recovery" element={<PasswordRecovery />} />
+						<Route path="/send-email" element={<SendEmail />} />
+						<Route path="/new-password" element={<NewPassword />} />
+						<Route path="/account" element={<MyAccount />} />
+						<Route path="/create-account" element={<CreateAccount/>} />
+						<Route path="/checkout" element={<Checkout />} />
+						<Route path="/orders" element={<Orders />} />
+						<Route path="*" element={NotFound} />
+					</Routes>
 				</Layout>
-			</BrowserRouter>
+			</Router>
 		</AppContext.Provider>
 	);
 }

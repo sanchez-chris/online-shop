@@ -54,22 +54,22 @@ const Header = () => {
 					<a href='/online-shop' className='logo-image-container'><img src={logo} alt="logo" className="nav-logo" /></a>
 					<ul>
 						<li >
-							<a href="/all" >All</a>
+							<a href="/online-shop/#/all" >All</a>
 						</li>
 						<li>
-							<a href="/clothes">Clothes</a>
+							<a href="/online-shop/#/clothes">Clothes</a>
 						</li>
 						<li>
-							<a href="/electronics">Electronics</a>
+							<a href="/online-shop/#/electronics">Electronics</a>
 						</li>
 						<li>
-							<a href="/furnitures">Furnitures</a>
+							<a href="/online-shop/#/furnitures">Furnitures</a>
 						</li>
 						<li>
-							<a href="/shoes">Shoes</a>
+							<a href="/online-shop/#/shoes">Shoes</a>
 						</li>
 						<li>
-							<a href="/others">Others</a>
+							<a href="/online-shop/#/others">Others</a>
 						</li>
 					</ul>
 				</div>
