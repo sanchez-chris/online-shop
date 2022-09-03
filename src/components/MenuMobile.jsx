@@ -9,16 +9,16 @@ const MenuMobile = () => {
         <strong>CATEGORIES</strong>
         </li>
         <li>
-          <a href="/online-shop/#/all">All</a>
+          <a href="/online-shop/#/all" >All</a>
         </li>
         <li>
-          <a href="/online-shop/#/clothes">Clothes</a>
+          <a href="/online-shop/#/clothes" >Clothes</a>
         </li>
         <li>
-          <a href="/online-shop/#/electronics">Electronics</a>
+          <a href="/online-shop/#/electronics" >Electronics</a>
         </li>
         <li>
-          <a href="/online-shop/#/furnitures">Furnitures</a>
+          <a href="/online-shop/#/furnitures" >Furnitures</a>
         </li>
         <li>
           <a href="/online-shop/#/shoes">Shoes</a>
