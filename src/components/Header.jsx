@@ -6,7 +6,8 @@ import menu from '../assets/icons/icon_menu.svg';
 import logo from '../assets/logos/logo_yard_sale.svg';
 import AppContext from '../context/AppContext';
 import shoppingCart from '../assets/icons/icon_shopping_cart.svg';
-import MenuMobile from './MenuMobile';
+import "../styles/MenuMobile.scss";
+
 
 const Header = () => {
 	const [toggleMenuUser, setToggleMenuUser] = useState(false);
@@ -45,11 +46,65 @@ const Header = () => {
 		}
 
 		setToggleMenuMobile(!toggleMenuMobile);
+		console.log("toggled icon");
 
-		
 
 
 	}
+
+
+
+	const MenuMobile = () => {
+		return (
+		  <div class="mobile-menu">
+			<ul>
+			  <li>
+			  <strong>CATEGORIES</strong>
+			  </li>
+			  <div>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/all" >All</a>
+			  </li>
+			  </div>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/clothes" >Clothes</a>
+			  </li>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/electronics" >Electronics</a>
+			  </li>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/furnitures" >Furnitures</a>
+			  </li>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/shoes">Shoes</a>
+			  </li>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/others">Other</a>
+			  </li>
+			</ul>
+	  
+			<ul>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/account">My account</a>
+			  </li>
+			</ul>
+	  
+			<ul>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/login" class="login">
+				  Login
+				</a>
+			  </li>
+			  <li onClick={() => handleToggleMenuMobile()}>
+				<a href="/online-shop/#/create-account" class="create-account">
+				  Create Account
+				</a>
+			  </li>
+			</ul>
+		  </div>
+		);
+	  };
+	  
 
 
 	/*

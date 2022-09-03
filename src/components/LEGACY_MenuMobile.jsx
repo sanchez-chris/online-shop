@@ -1,16 +1,21 @@
 import React from "react";
 import "../styles/MenuMobile.scss";
 
+
 const MenuMobile = () => {
+
+
   return (
     <div class="mobile-menu">
       <ul>
         <li>
         <strong>CATEGORIES</strong>
         </li>
-        <li>
+        <div>
+        <li onClick={() => handleToggleMenuMobile()}>
           <a href="/online-shop/#/all" >All</a>
         </li>
+        </div>
         <li>
           <a href="/online-shop/#/clothes" >Clothes</a>
         </li>
