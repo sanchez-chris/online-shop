@@ -4,15 +4,13 @@ import ProductList from '../containers/ProductList';
 
 
 const All = () => {
-	
+
     
     return (
 		
         <>
         <ProductList />
-        </>
-
-		
+        </>		
 	);
 }
 
