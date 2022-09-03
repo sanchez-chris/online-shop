@@ -46,10 +46,6 @@ const Header = () => {
 		}
 
 		setToggleMenuMobile(!toggleMenuMobile);
-		console.log("toggled icon");
-
-
-
 	}
 
 
