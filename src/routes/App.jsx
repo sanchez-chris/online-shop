@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 import Layout from '../containers/Layout';
 import All from '../pages/All';
 import Clothes from '../pages/Clothes';
@@ -28,7 +28,7 @@ const App = () => {
 	const initialState = useInitialState();
 	return (
 		<AppContext.Provider value={initialState}>
-			<Router >
+			<Router>
 				<Layout>
 					<Routes>
 						<Route path="/online-shop" exact element={<Home />} />

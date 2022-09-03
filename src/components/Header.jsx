@@ -33,6 +33,25 @@ const Header = () => {
 		setToggleMenuMobile(!toggleMenuMobile);
 	}
 
+
+	/*
+	Message for my future me: when you want to redo the hashrouter to deploy to 
+	gh pages (and you will want to) you have to:
+	
+	1. Add the add /project_name/#/page_name in the href of all links (tag a)
+
+	2. Make sure you have this struc in your App.jsx
+	
+		<Hashouter>
+			<Routes>
+				<Route path="/online-shop" exact element={<Home />} />
+				<Route path='/all' element={<All />} />
+				<Route path="/clothes" element={<Clothes />} />
+				<Route path="/electronics" element={<Electronics />} />
+			</Routes>
+		</HashRouter>
+	*/
+
 	return (
 		<nav>
 			
