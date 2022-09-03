@@ -28,6 +28,14 @@
 	text-decoration: none;
 	margin-bottom: 52px;
 }
+
+.forgot-my-password{
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 52px;
+	color: var(--hospital-green);
+
+}
 .label {
 	font-size: var(--sm);
 	font-weight: bold;
@@ -75,6 +83,11 @@
 .login-button {
 	margin-top: 14px;
 	margin-bottom: 30px;
+}
+
+.log-in-text{
+	color: var(--white);
+	text-decoration: none;
 }
 .create-account-button{
 	display: flex;
