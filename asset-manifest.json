@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/online-shop/static/css/main.e6f5bc31.css",
+    "main.css": "/online-shop/static/css/main.9060a772.css",
     "main.js": "/online-shop/static/js/main.822f44c4.js",
     "static/media/homeBackground.jpg": "/online-shop/static/media/homeBackground.8f9749e32c63f1a3c6b4.jpg",
     "static/media/logo_yard_sale.svg": "/online-shop/static/media/logo_yard_sale.f5c1d07e0dba172463639e02bacccd32.svg",
@@ -10,11 +10,11 @@
     "static/media/email.svg": "/online-shop/static/media/email.bb2ee953f58b7171dfeb6401818f32e4.svg",
     "static/media/icon_menu.svg": "/online-shop/static/media/icon_menu.3aa38c5e16715afedfa9b1adb8607b7d.svg",
     "index.html": "/online-shop/index.html",
-    "main.e6f5bc31.css.map": "/online-shop/static/css/main.e6f5bc31.css.map",
+    "main.9060a772.css.map": "/online-shop/static/css/main.9060a772.css.map",
     "main.822f44c4.js.map": "/online-shop/static/js/main.822f44c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6f5bc31.css",
+    "static/css/main.9060a772.css",
     "static/js/main.822f44c4.js"
   ]
 }
