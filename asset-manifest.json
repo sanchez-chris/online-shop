@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-shop/static/css/main.2a5c1eb1.css",
-    "main.js": "/online-shop/static/js/main.e878b174.js",
+    "main.css": "/online-shop/static/css/main.6a521dd8.css",
+    "main.js": "/online-shop/static/js/main.7473d3bf.js",
     "static/media/homeBackground.jpg": "/online-shop/static/media/homeBackground.8f9749e32c63f1a3c6b4.jpg",
     "static/media/logo_yard_sale.svg": "/online-shop/static/media/logo_yard_sale.f5c1d07e0dba172463639e02bacccd32.svg",
     "static/media/bt_added_to_cart.svg": "/online-shop/static/media/bt_added_to_cart.ac33eec52215a7cb4613b5daa37f0532.svg",
@@ -10,11 +10,11 @@
     "static/media/email.svg": "/online-shop/static/media/email.bb2ee953f58b7171dfeb6401818f32e4.svg",
     "static/media/icon_menu.svg": "/online-shop/static/media/icon_menu.3aa38c5e16715afedfa9b1adb8607b7d.svg",
     "index.html": "/online-shop/index.html",
-    "main.2a5c1eb1.css.map": "/online-shop/static/css/main.2a5c1eb1.css.map",
-    "main.e878b174.js.map": "/online-shop/static/js/main.e878b174.js.map"
+    "main.6a521dd8.css.map": "/online-shop/static/css/main.6a521dd8.css.map",
+    "main.7473d3bf.js.map": "/online-shop/static/js/main.7473d3bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a5c1eb1.css",
-    "static/js/main.e878b174.js"
+    "static/css/main.6a521dd8.css",
+    "static/js/main.7473d3bf.js"
   ]
 }
