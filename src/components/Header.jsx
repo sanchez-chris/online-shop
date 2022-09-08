@@ -15,6 +15,7 @@ const Header = () => {
 	const [toggleOrders, setToggleOrders] = useState(false);
 	const { state } = useContext(AppContext);
 	const [toggleMenuMobile, setToggleMenuMobile] = useState(false);
+	const [ disableButton, setDisableButton ] = useState(true);
 
 
 	const handleToggleMenuUser = () => {
@@ -110,7 +111,15 @@ const Header = () => {
 			const reducer = (accumalator, currentValue) => accumalator + currentValue.price;
 			const sum = state.cart.reduce(reducer, 0);
 			return sum;
+
+		
 		}
+
+		if (sumTotal() !== 0) {
+			setDisableButton(false);
+		}
+
+	
 	
 		return (
 			<aside className="MyOrder">
@@ -133,8 +142,8 @@ const Header = () => {
 						<p>{sumTotal()}€</p>
 					</div>
 					
-					<a className='checkout-text' href="#/checkout">	
-						<button onClick={() => handleToggleOrders()} className="checkout-button">
+					<a className='checkout-text' href="#/checkout"  >	
+					<button onClick={() => handleToggleOrders()} className="checkout-button" disabled={disableButton ? true : false}>
 						Checkout
 						</button>
 					</a>
