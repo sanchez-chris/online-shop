@@ -6,6 +6,8 @@
 
 This project is an online store built with React, fetching product data from an API. The store provides an interactive platform for users to browse and purchase various products.
 
+This project is live at https://sanchez-chris.github.io/online-shop/
+
 ---
 
 ## Features:
